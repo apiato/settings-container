@@ -1,0 +1,13 @@
+{
+    "name": "mohammad-alavi/apiato-settings",
+    "description": "An Apiato container which helps store and retrieving key values",
+    "type": "apiato-container",
+    "license": "MIT",
+    "extra": {
+        "apiato": {
+            "container": {
+                "name": "Settings"
+            }
+        }
+    }
+}
