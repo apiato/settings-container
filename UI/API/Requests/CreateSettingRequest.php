@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Containers\Settings\UI\API\Requests;
+namespace App\Modules\Settings\UI\API\Requests;
 
 use App\Ship\Parents\Requests\Request;
 

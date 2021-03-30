@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Containers\Settings\Actions;
+namespace App\Modules\Settings\Actions;
 
 use Apiato\Core\Foundation\Facades\Apiato;
-use App\Containers\Settings\UI\API\Requests\UpdateSettingRequest;
+use App\Modules\Settings\UI\API\Requests\UpdateSettingRequest;
 use App\Ship\Parents\Actions\Action;
 
 class UpdateSettingAction extends Action

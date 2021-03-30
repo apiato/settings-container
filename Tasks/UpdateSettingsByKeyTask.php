@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Containers\Settings\Tasks;
+namespace App\Modules\Settings\Tasks;
 
-use App\Containers\Settings\Data\Repositories\SettingRepository;
+use App\Modules\Settings\Data\Repositories\SettingRepository;
 use App\Ship\Exceptions\NotFoundException;
 use App\Ship\Exceptions\UpdateResourceFailedException;
 use App\Ship\Parents\Tasks\Task;

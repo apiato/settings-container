@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Containers\Settings\Tasks;
+namespace App\Modules\Settings\Tasks;
 
-use App\Containers\Settings\Data\Repositories\SettingRepository;
-use App\Containers\Settings\Models\Setting;
+use App\Modules\Settings\Data\Repositories\SettingRepository;
+use App\Modules\Settings\Models\Setting;
 use App\Ship\Exceptions\CreateResourceFailedException;
 use App\Ship\Parents\Tasks\Task;
 use Exception;

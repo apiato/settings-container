@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Containers\Settings\Models;
+namespace App\Modules\Settings\Models;
 
 use App\Ship\Parents\Models\Model;
 
