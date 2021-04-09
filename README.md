@@ -1,4 +1,4 @@
-# Settings [Apiato](https://github.com/apiato/apiato) Container
+# [Apiato](https://github.com/apiato/apiato) Settings Container
 
 An Apiato container which helps store and retrieving key values
 
@@ -18,13 +18,13 @@ Add this to your  `app/composer.json` then run `composer update`
 ```
 "mohammad-alavi/apiato-setings": "^2.0.0"
 ```
-This container will be installed in `app/Modules/Settings`
 
 <a name="seed-the-default-settings"></a>
 
 ## Seed the default settings
 
-Default Settings should be seeded in `app/Modules/Settings/Database/Seeders/DefaultSystemSettingsSeeder.php`
+1) Copy the container from `VendorSection` to a section of your project and fix the namespaces.
+2) Seed default settings in `app/Containers/YourSection/Settings/Database/Seeders/DefaultSystemSettingsSeeder.php`
 
 <a name="read-settings"></a>
 
