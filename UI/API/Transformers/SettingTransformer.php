@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Modules\Settings\UI\API\Transformers;
+namespace App\Containers\VendorSection\Settings\UI\API\Transformers;
 
-use App\Modules\Settings\Models\Setting;
+use App\Containers\VendorSection\Settings\Models\Setting;
 use App\Ship\Parents\Transformers\Transformer;
 
 class SettingTransformer extends Transformer

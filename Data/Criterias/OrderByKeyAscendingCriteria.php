@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Settings\Data\Criterias;
+namespace App\Containers\VendorSection\Settings\Data\Criterias;
 
 use App\Ship\Parents\Criterias\Criteria;
 use Prettus\Repository\Contracts\RepositoryInterface as PrettusRepositoryInterface;

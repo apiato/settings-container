@@ -29,7 +29,7 @@
  * }
  */
 
-use App\Modules\Settings\UI\API\Controllers\Controller;
+use App\Containers\VendorSection\Settings\UI\API\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 Route::post('settings', [Controller::class, 'createSetting'])

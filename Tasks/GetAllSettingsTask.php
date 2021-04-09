@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Modules\Settings\Tasks;
+namespace App\Containers\VendorSection\Settings\Tasks;
 
-use App\Modules\Settings\Data\Criterias\OrderByKeyAscendingCriteria;
-use App\Modules\Settings\Data\Repositories\SettingRepository;
+use App\Containers\VendorSection\Settings\Data\Criterias\OrderByKeyAscendingCriteria;
+use App\Containers\VendorSection\Settings\Data\Repositories\SettingRepository;
 use App\Ship\Parents\Tasks\Task;
 
 class GetAllSettingsTask extends Task

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Modules\Settings\Data\Repositories;
+namespace App\Containers\VendorSection\Settings\Data\Repositories;
 
-use App\Modules\Settings\Models\Setting;
+use App\Containers\VendorSection\Settings\Models\Setting;
 use App\Ship\Parents\Repositories\Repository;
 
 class SettingRepository extends Repository

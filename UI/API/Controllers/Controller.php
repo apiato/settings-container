@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Modules\Settings\UI\API\Controllers;
+namespace App\Containers\VendorSection\Settings\UI\API\Controllers;
 
 use Apiato\Core\Foundation\Facades\Apiato;
-use App\Modules\Settings\UI\API\Requests\CreateSettingRequest;
-use App\Modules\Settings\UI\API\Requests\DeleteSettingRequest;
-use App\Modules\Settings\UI\API\Requests\GetAllSettingsRequest;
-use App\Modules\Settings\UI\API\Requests\UpdateSettingRequest;
-use App\Modules\Settings\UI\API\Transformers\SettingTransformer;
+use App\Containers\VendorSection\Settings\UI\API\Requests\CreateSettingRequest;
+use App\Containers\VendorSection\Settings\UI\API\Requests\DeleteSettingRequest;
+use App\Containers\VendorSection\Settings\UI\API\Requests\GetAllSettingsRequest;
+use App\Containers\VendorSection\Settings\UI\API\Requests\UpdateSettingRequest;
+use App\Containers\VendorSection\Settings\UI\API\Transformers\SettingTransformer;
 use App\Ship\Parents\Controllers\ApiController;
 use Illuminate\Http\JsonResponse;
 

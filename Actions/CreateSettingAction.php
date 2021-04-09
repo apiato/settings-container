@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Modules\Settings\Actions;
+namespace App\Containers\VendorSection\Settings\Actions;
 
 use Apiato\Core\Foundation\Facades\Apiato;
-use App\Modules\Settings\Models\Setting;
-use App\Modules\Settings\UI\API\Requests\CreateSettingRequest;
+use App\Containers\VendorSection\Settings\Models\Setting;
+use App\Containers\VendorSection\Settings\UI\API\Requests\CreateSettingRequest;
 use App\Ship\Parents\Actions\Action;
 
 class CreateSettingAction extends Action

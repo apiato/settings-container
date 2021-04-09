@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Settings\Providers;
+namespace App\Containers\VendorSection\Settings\Providers;
 
 use App\Ship\Parents\Providers\MainProvider;
 

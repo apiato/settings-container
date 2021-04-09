@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Settings\Data\Seeders;
+namespace App\Containers\VendorSection\Settings\Data\Seeders;
 
 use App\Ship\Parents\Seeders\Seeder;
 
