@@ -7,6 +7,11 @@ But those gifts can be changed in the future, so it's better not have them stati
 
 This container helps to store and retrieve those key values settings. You can also seed the database with the default configurations.
 
+#### Compatiblity table
+
+| Container Version  | Apiato Version|
+| -------------------|---------------|
+| `^2.*.*`           | `^10.*.*`     |
 
 - [Installation](#installation)
 - [Seed the default settings](#seed-the-default-settings)
@@ -14,10 +19,11 @@ This container helps to store and retrieve those key values settings. You can al
 
 <a name="installation"></a>
 ## Installation
-Add this to your  `app/composer.json` then run `composer update`
+
 ```
-"mohammad-alavi/apiato-setings": "^2.0.0"
+composer require apiato/settings-container
 ```
+Now run `php artisan migrate`
 
 <a name="seed-the-default-settings"></a>
 
