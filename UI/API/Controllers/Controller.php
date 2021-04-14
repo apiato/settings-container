@@ -2,7 +2,6 @@
 
 namespace App\Containers\VendorSection\Settings\UI\API\Controllers;
 
-use Apiato\Core\Foundation\Facades\Apiato;
 use App\Containers\VendorSection\Settings\Actions\CreateSettingAction;
 use App\Containers\VendorSection\Settings\Actions\DeleteSettingAction;
 use App\Containers\VendorSection\Settings\Actions\GetAllSettingsAction;
@@ -19,25 +18,25 @@ class Controller extends ApiController
 {
 	public function getAllSettings(GetAllSettingsRequest $request): array
 	{
-		$settings = Apiato::call(GetAllSettingsAction::class);
+		$settings = app(GetAllSettingsAction::class)->run();
 		return $this->transform($settings, SettingTransformer::class);
 	}
 
 	public function createSetting(CreateSettingRequest $request): array
 	{
-		$setting = Apiato::call(CreateSettingAction::class, [$request]);
+		$setting = app(CreateSettingAction::class)->run($request);
 		return $this->transform($setting, SettingTransformer::class);
 	}
 
 	public function updateSetting(UpdateSettingRequest $request): array
 	{
-		$setting = Apiato::call(UpdateSettingAction::class, [$request]);
+		$setting = app(UpdateSettingAction::class)->run($request);
 		return $this->transform($setting, SettingTransformer::class);
 	}
 
 	public function deleteSetting(DeleteSettingRequest $request): JsonResponse
 	{
-		Apiato::call(DeleteSettingAction::class, [$request]);
+		app(DeleteSettingAction::class)->run($request);
 		return $this->noContent();
 	}
 }

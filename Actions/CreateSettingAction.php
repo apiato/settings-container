@@ -2,7 +2,6 @@
 
 namespace App\Containers\VendorSection\Settings\Actions;
 
-use Apiato\Core\Foundation\Facades\Apiato;
 use App\Containers\VendorSection\Settings\Models\Setting;
 use App\Containers\VendorSection\Settings\Tasks\CreateSettingTask;
 use App\Containers\VendorSection\Settings\UI\API\Requests\CreateSettingRequest;
@@ -17,6 +16,6 @@ class CreateSettingAction extends Action
 			'value'
 		]);
 
-		return Apiato::call(CreateSettingTask::class, [$sanitizedData]);
+		return app(CreateSettingTask::class)->run($sanitizedData);
 	}
 }

@@ -20,8 +20,9 @@ class GetAllSettingsTask extends Task
         return $this->repository->paginate();
     }
 
-    public function ordered(): SettingRepository
+    public function ordered(): self
     {
-        return $this->repository->pushCriteria(new OrderByKeyAscendingCriteria());
+    	$this->repository->pushCriteria(new OrderByKeyAscendingCriteria());
+	    return $this;
     }
 }
