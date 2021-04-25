@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Containers\VendorSection\Settings\Actions;
+namespace App\Containers\Vendor\Settings\Actions;
 
-use App\Containers\VendorSection\Settings\Tasks\UpdateSettingTask;
-use App\Containers\VendorSection\Settings\UI\API\Requests\UpdateSettingRequest;
+use App\Containers\Vendor\Settings\Tasks\UpdateSettingTask;
+use App\Containers\Vendor\Settings\UI\API\Requests\UpdateSettingRequest;
 use App\Ship\Parents\Actions\Action;
 
 class UpdateSettingAction extends Action

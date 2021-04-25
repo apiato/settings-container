@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Containers\VendorSection\Settings\UI\API\Controllers;
+namespace App\Containers\Vendor\Settings\UI\API\Controllers;
 
-use App\Containers\VendorSection\Settings\Actions\CreateSettingAction;
-use App\Containers\VendorSection\Settings\Actions\DeleteSettingAction;
-use App\Containers\VendorSection\Settings\Actions\GetAllSettingsAction;
-use App\Containers\VendorSection\Settings\Actions\UpdateSettingAction;
-use App\Containers\VendorSection\Settings\UI\API\Requests\CreateSettingRequest;
-use App\Containers\VendorSection\Settings\UI\API\Requests\DeleteSettingRequest;
-use App\Containers\VendorSection\Settings\UI\API\Requests\GetAllSettingsRequest;
-use App\Containers\VendorSection\Settings\UI\API\Requests\UpdateSettingRequest;
-use App\Containers\VendorSection\Settings\UI\API\Transformers\SettingTransformer;
+use App\Containers\Vendor\Settings\Actions\CreateSettingAction;
+use App\Containers\Vendor\Settings\Actions\DeleteSettingAction;
+use App\Containers\Vendor\Settings\Actions\GetAllSettingsAction;
+use App\Containers\Vendor\Settings\Actions\UpdateSettingAction;
+use App\Containers\Vendor\Settings\UI\API\Requests\CreateSettingRequest;
+use App\Containers\Vendor\Settings\UI\API\Requests\DeleteSettingRequest;
+use App\Containers\Vendor\Settings\UI\API\Requests\GetAllSettingsRequest;
+use App\Containers\Vendor\Settings\UI\API\Requests\UpdateSettingRequest;
+use App\Containers\Vendor\Settings\UI\API\Transformers\SettingTransformer;
 use App\Ship\Parents\Controllers\ApiController;
 use Illuminate\Http\JsonResponse;
 

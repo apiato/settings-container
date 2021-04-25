@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Containers\VendorSection\Settings\Actions;
+namespace App\Containers\Vendor\Settings\Actions;
 
-use App\Containers\VendorSection\Settings\Models\Setting;
-use App\Containers\VendorSection\Settings\Tasks\CreateSettingTask;
-use App\Containers\VendorSection\Settings\UI\API\Requests\CreateSettingRequest;
+use App\Containers\Vendor\Settings\Models\Setting;
+use App\Containers\Vendor\Settings\Tasks\CreateSettingTask;
+use App\Containers\Vendor\Settings\UI\API\Requests\CreateSettingRequest;
 use App\Ship\Parents\Actions\Action;
 
 class CreateSettingAction extends Action

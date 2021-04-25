@@ -29,7 +29,7 @@ Now run `php artisan migrate`
 
 ## Seed the default settings
 
-1) Copy the container from `VendorSection` to a section of your project and fix the namespaces.
+1) Copy the container from `Vendor` to a section of your project and fix the namespaces.
 2) Seed default settings in `app/Containers/YourSection/Settings/Database/Seeders/DefaultSystemSettingsSeeder.php`
 
 <a name="read-settings"></a>

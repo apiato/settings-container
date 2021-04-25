@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Containers\VendorSection\Settings\UI\API\Requests;
+namespace App\Containers\Vendor\Settings\UI\API\Requests;
 
 use App\Ship\Parents\Requests\Request;
 

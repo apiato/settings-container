@@ -29,7 +29,7 @@
  * }
  */
 
-use App\Containers\VendorSection\Settings\UI\API\Controllers\Controller;
+use App\Containers\Vendor\Settings\UI\API\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 Route::patch('settings/{id}', [Controller::class, 'updateSetting'])

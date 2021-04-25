@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Containers\VendorSection\Settings\Actions;
+namespace App\Containers\Vendor\Settings\Actions;
 
-use App\Containers\VendorSection\Settings\Tasks\GetAllSettingsTask;
+use App\Containers\Vendor\Settings\Tasks\GetAllSettingsTask;
 use App\Ship\Parents\Actions\Action;
 
 class GetAllSettingsAction extends Action

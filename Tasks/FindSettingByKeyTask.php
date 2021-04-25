@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Containers\VendorSection\Settings\Tasks;
+namespace App\Containers\Vendor\Settings\Tasks;
 
-use App\Containers\VendorSection\Settings\Data\Repositories\SettingRepository;
+use App\Containers\Vendor\Settings\Data\Repositories\SettingRepository;
 use App\Ship\Exceptions\NotFoundException;
 use App\Ship\Parents\Tasks\Task;
 
